@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Airtravel</title>
+<link rel="stylesheet" href="estilos2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header1">
+  <h1 class="logo"> </h1>
+	 <nav class="menu">
+		 <a href="index.html" class="menu" id="menu"> Home</a> 
+		 <a href="paquetes.html" class="menu" id="packages"> Packages</a>
+		 <a href="Request a quote.html" class="menu" id="request"> Request a quote</a>
+		 <a href="make.html" class="menu" id="payment"> Make payment</a>
+		 
+	</nav>
+
+</header>
+	<section class="seccioncartas">
+	<h1 class="titulocartas"><span class="adventure">choose your next adventure</span><br><span class="continentes">America, Europe, Africa or Asia?</span>
+
+</h1>
+		<div class="layout-circuitos">
+
+    <!-- COLUMNA IZQUIERDA -->
+    <aside class="filtros">
+      <h3>Destinations</h3>
+
+      <form>
+       
+		  <label><input type="checkbox"> America</label><br>
+        <label><input type="checkbox"> Europe</label><br>
+        <label><input type="checkbox"> Africa</label><br>
+        <label><input type="checkbox"> Asia</label><br>
+		<label><input type="checkbox"> Oceania</label><br>
+		   <label><input type="checkbox"> All</label><br><br>
+		  <label>Package</label><br>
+		  <label><input type="text" maxlength="40" placeholder="write your package"></label><br><br>
+
+        <label>Duration</label>
+        <input type="range" min="1" max="30"><br><br>
+		  <label for="paquete">Tour price:</label><br>
+
+<select id="paquete" name="paquete">
+ <option value="" disabled selected>Select your price</option>
+  <option value="basico">$1000 USD</option>
+  <option value="premium">$1500 USD</option>
+  <option value="vip">$2000 USD</option>
+	 <option value="vip">$2500 USD</option>
+	 <option value="vip">$3000 USD</option>
+</select><br><br>
+
+        <button type="reset">Refresh</button>
+      </form>
+    </aside>
+			
+ 
+	   <div class="cards-container">
+		   
+    <div class="card1">
+		<a href="paris.html" class="card-link"> 
+      <img src="paris3.jpg" class="card-img" alt="London">
+      <h3><br>Paris</h3>
+		<p>7 days · hotel included</p>
+		
+		<p> <span class="london">Eiffel Tower, Louvre Museum, Notre Dame Cathedral, Champs-Élysées, Montmartre.</span></p><br>
+		<p><span class="price">FROM $1400 USD</span></p>
+      <br>
+		</a>
+	   </div>
+	   
+	   
+	  <div class="card1">
+		  <a href="roma.html" class="card-link"> 
+      <img src="roma2.jpg" class="card-img" alt="London">
+      <h3><br>Rome</h3>
+		<p>9 days · guide included</p>
+		
+		<p> <span class="london">Colosseum, Roman Forum, Vatican City, St. Peter’s Basilica, Trevi Fountain.
+
+.</span></p><br>
+		<p><span class="price">FROM $1700 USD</span></p>
+      <br>
+		  </a>
+    </div>
+		  
+		  
+	   <div class="card1">
+		    <a href="london.html" class="card-link"> 
+      <img src="london.jpg" class="card-img" alt="London">
+      <h3><br>London</h3>
+		<p>5 days · hotel included</p>
+		
+		<p> <span class="london">Big Ben, Buckingham Palace, Westminster Abbey, Abbey Road, London Eye, Hyde Park.</span></p><br>
+		<p><span class="price">FROM $1500 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	    <div class="card1">
+			   <a href=newyork.html class="card-link"> 
+      <img src="ny.jpg" class="card-img" alt="London">
+      <h3><br>New York</h3>
+		<p>4 days · hotel included</p>
+		
+		<p> <span class="london">Statue of Liberty, Central Park, Times Square, Empire State Building.</span></p><br>
+		<p><span class="price">FROM $1200 USD</span></p>
+      <br>
+			</a>
+    </div>
+	   <div class="card1">
+		    <a href=estambul.html class="card-link"> 
+      <img src="estambul.jpg" class="card-img" alt="London">
+      <h3><br>Estambul</h3>
+		<p>7 days · guide included</p>
+		
+		<p> <span class="london">Hagia Sophia, Blue Mosque, Topkapi Palace, Grand Bazaar, Spice Bazaar
+</span></p><br>
+		<p><span class="price">FROM $1600 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	  <div class="card1">
+		   <a href="Tokyo.html" class="card-link"> 
+      <img src="tokio2.jpg" class="card-img" alt="London">
+      <h3><br>Tokyo</h3>
+		<p>8 days · tour included</p>
+		
+		<p> <span class="london">Shibuya Crossing, Senso-ji Temple, Tokyo Tower, Meiji Shrine, Imperial Palace
+</span></p><br>
+		<p><span class="price">FROM $1970 USD</span></p>
+      <br>
+		  </a>
+    </div>
+	   <div class="card1">
+		   <a href="monaco.html" class="card-link"> 
+      <img src="monaco3.jpg" class="card-img" alt="London">
+      <h3><br>Monaco</h3>
+		<p>4 days · tour included</p>
+		
+		<p> <span class="london">Monte Carlo Casino, Prince’s Palace of Monaco, Oceanographic Museum.
+
+
+</span></p><br>
+		<p><span class="price">FROM $2800 USD</span></p>
+      <br>
+		   </a>
+    </div>
+		   
+	   <div class="card1">
+		   <a href="Rio.html" class="card-link"> 
+      <img src="rio.jpg" class="card-img" alt="London">
+      <h3><br>Rio de Janeiro</h3>
+		<p>7 days · hotel included</p>
+		
+		<p> <span class="london">Christ the Redeeme, Sugarloaf Mountain, Copacabana Beach, Ipanema Beach.
+</span></p><br>
+		<p><span class="price">FROM $1500 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	     <div class="card1">
+			 <a href="barcelona.html" class="card-link"> 
+      <img src="barcelona2.jpg" class="card-img" alt="London">
+      <h3><br>Barcelona</h3>
+		<p>6 days · tour included</p>
+		
+		<p> <span class="london">Sagrada Familia, Park Güell, La Rambla, Gothic Quarter, Casa Batlló, Casa Milà.
+
+
+</span></p><br>
+		<p><span class="price">FROM $1090 USD</span></p>
+      <br>
+			 </a>
+    </div>
+ <div class="card1">
+	 <a href="andean.html" class="card-link"> 
+      <img src="andes.jpg" class="card-img" alt="London">
+      <h3><br>Andean adventure</h3>
+		<p>15 days · guide included</p>
+		
+		<p> <span class="london">Machu Picchu, Sacred Valley, Lake Titicaca, Rainbow Mountain, Colca Canyon.
+
+
+</span></p><br>
+		<p><span class="price">FROM $2090 USD</span></p>
+      <br>
+	 </a>
+    </div>
+	   <div class="card1">
+		   <a href="caribean.html" class="card-link"> 
+      <img src="caribe4.jpg" class="card-img" alt="London">
+      <h3><br>Caribbean essentials</h3>
+		<p>16 days · hotel included</p>
+		
+		<p> <span class="london">Punta Cana, Seven Mile Beach, Varadero Beach, Aruba Eagle Beach, Bahamas.
+
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2300 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="middle.html" class="card-link"> 
+      <img src="petra.jpg" class="card-img" alt="London">  
+      <h3><br>Middle east</h3>
+		<p>10 days · guide included</p>
+		
+		<p> <span class="london">Petra, Dead Sea, Jerusalem Old City, Western Wall, Byblos, Baalbek.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2690 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="canadian.html" class="card-link"> 
+      <img src="canada.jpg" class="card-img" alt="London">
+      <h3><br>Canadian Wonders</h3>
+		<p>16 days · hotel included</p>
+		
+		<p> <span class="london">Toronto Skyline, CN Tower, Niagara Falls, Old Quebec, Banff National Park,Lake Louise.
+
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2290 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	  <div class="card1">
+		  <a href="Marroco.html" class="card-link"> 
+      <img src="marroco2.jpg" class="card-img" alt="London">
+      <h3><br>Marroco</h3>
+		<p>18 days · guide included</p>
+		
+		<p> <span class="london">Marrakech Medina, Jemaa el-Fnaa Square, Bahia Palace, Atlas Mountains.
+
+
+</span></p><br>
+		<p><span class="price">FROM $2300 USD</span></p>
+      <br>
+		  </a>
+    </div>
+	  <div class="card1">
+		  <a href="europe.html" class="card-link"> 
+      <img src="venecia.jpg" class="card-img" alt="London">
+      <h3><br>Europe Express</h3>
+		<p>10 days · guide included</p>
+		
+		<p> <span class="london">Amsterdam Canals, Berlin Brandenburg Gate, Prague Old Town, Venice Grand Canal.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2084 USD</span></p>
+      <br>
+		  </a>
+    </div>
+<div class="card1">
+	<a href="egyptian.html" class="card-link"> 
+      <img src="egipto.jpg" class="card-img" alt="London">
+      <h3><br>Egyptian Discovery </h3>
+		<p>17 days · guide included</p>
+		
+		<p> <span class="london">Pyramids of Giza, Great Sphinx, Abu Simbel, Nile River Cruise, Valley of the Kings.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2487 USD</span></p>
+      <br>
+	</a>
+    </div>
+	  <div class="card1">
+		  <a href="polinesian.html" class="card-link"> 
+      <img src="polinesia.jpg" class="card-img" alt="London">
+      <h3><br>Polynesian crossing</h3>
+		<p>12 days · hotel included</p>
+		
+		<p> <span class="london">Bora Bora, Hawaii, Tahiti, Rangiroa Atoll, Matira Beach, Guam, Tuvalu, Rapa Nui.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2176 USD</span></p>
+      <br>
+		  </a>
+    </div>
+	  <div class="card1">
+		  <a href="african.html" class="card-link"> 
+      <img src="africa.jpg" class="card-img" alt="London">
+      <h3><br>African Fantasy </h3>
+		<p>18 days · guide included</p>
+		
+		<p> <span class="london">Serengeti National Park, Maasai Mara National Reserve, Kruger National Park.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2300 USD</span></p>
+      <br>
+		  </a>
+    </div>
+   
+	   <div class="card1">
+		   <a href="amazon.html" class="card-link"> 
+      <img src="amazon.jpg" class="card-img" alt="London">
+      <h3><br>Amazon Expedition  </h3>
+		<p>10 days · guide included</p>
+		
+		<p> <span class="london">Jungle Trekking, Amazon River Expedition, Canopy Zipline, Night Wildlife Safari.
+
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $1800 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="mayan.html" class="card-link"> 
+      <img src="maya.jpg" class="card-img" alt="London">
+      <h3><br>Mayan paradise  </h3>
+		<p>16 days · tour included</p>
+		
+		<p> <span class="london">Isla Mujeres, Tulum Ruins, Chichén Itzá, Cenote Ik Kil, Xcaret Park, Cozumel
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2700 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="Asia.html" class="card-link"> 
+      <img src="ankor.jpg" class="card-img" alt="London">
+      <h3><br>Mystic Asia  </h3>
+		<p>12 days · guide included</p>
+		
+		<p> <span class="london">Angkor Wat, Bayon Temple, Bangkok Grand Palace, Ha Long Bay, Taj Mahal, Varanasi.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2480 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="Himalayan.html" class="card-link"> 
+      <img src="nepal.jpg" class="card-img" alt="London">
+      <h3><br>Himalayan Quest </h3>
+		<p>10 days · guide included</p>
+		
+		<p> <span class="london">Everest Base Camp, Sagarmatha National Park, Khumbu Valley, Pashupatinath.
+
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2200 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="grece.html" class="card-link"> 
+      <img src="grecia1.jpg" class="card-img" alt="London">
+      <h3><br>Ancient greece </h3>
+		<p>18 days · guide included</p>
+		
+		<p> <span class="london">Acropolis of Athens, Parthenon, Temple of Olympian Zeus, Ancient Agora of Athens.
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $2600 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	   <div class="card1">
+		   <a href="Gold.html" class="card-link"> 
+      <img src="dubai.jpg" class="card-img" alt="London">
+      <h3><br>Gulf of Gold </h3>
+		<p>12 days · hotel included</p>
+		
+		<p> <span class="london">Dubai Burj Khalifa, Palm Jumeirah, Qatar, Burj Al Arab, Dubai Mall, Doha Corniche.
+
+
+
+
+</span></p><br>
+		<p><span class="price">FROM $3070 USD</span></p>
+      <br>
+		   </a>
+    </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+ 
+</section>
+		<footer class="footer">
+  
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Company</h3>
+      <p>Airtravel</p>
+      <p>Tailor-made trips since 2012
+</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Social media</h3>
+      <ul>
+         <li><a href="https://www.instagram.com/"><img src="insta.png" class="insta"> Instagram</a></li> 
+		      <li><a href="https://www.facebook.com/?locale=es_LA"><img src="redes-03.png" class="insta"> Facebook</a></li> 
+       
+		      <li><a href="https://x.com/?lang=es"><img src="redes-02.png" class="insta"> Twitter</a></li> 
+       
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p><img src="contact-05.png" class="insta2"> info@dgztravel.com</p>
+      <p><img src="contact-04.png" class="insta"> +52 555 123 4567</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Airtravel | All rights reserved
+  </div>
+
+</footer>
+	
+</body>
+</html>
